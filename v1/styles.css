@@ -1,0 +1,248 @@
+/* Existing CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f0f0f0;
+}
+
+.container {
+	width: 90%;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	background-color: #e0e0e0;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.main {
+	display: flex;
+	flex: 1;
+}
+
+.blockly-container {
+	width: 60%;
+	background-color: #fff;
+	border-right: 1px solid #ddd;
+}
+
+.blockly-div {
+	height: calc(100vh - 80px);
+}
+
+.chat-container {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.chat-display {
+	flex: 1;
+	background-color: #fff3c7;
+	border: 1px solid #ddd;
+	padding: 10px;
+	overflow-y: auto;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+/* New CSS for chat bubbles */
+.chat-bubble {
+	max-width: 75%;
+	padding: 10px;
+	border-radius: 15px;
+	margin-bottom: 5px;
+	line-height: 1.4;
+	word-wrap: break-word;
+}
+
+.user-message {
+	align-self: flex-end;
+	background-color: #d0e8ff;
+	color: #004085;
+	border-radius: 15px 15px 0 15px;
+}
+
+.ai-message {
+	align-self: flex-start;
+	background-color: #d4edda;
+	color: #155724;
+	border-radius: 15px 15px 15px 0;
+}
+
+.chat-input {
+	display: flex;
+	gap: 5px;
+}
+
+.chat-input input {
+	flex: 1;
+	padding: 8px;
+	font-size: 16px;
+}
+
+.chat-input button {
+	padding: 8px 12px;
+	font-size: 16px;
+}
+
+/* Existing CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f0f0f0;
+}
+
+.container {
+	width: 90%;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.header {
+	background-color: #e0e0e0;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.main {
+	display: flex;
+	flex: 1;
+	overflow: hidden;
+}
+
+.blockly-container {
+	width: 60%;
+	background-color: #fff;
+	border-right: 1px solid #ddd;
+	display: flex;
+	flex-direction: column;
+}
+
+.blockly-div {
+	height: 100%;
+	width: 100%;
+}
+
+.chat-container {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.chat-display {
+	flex: 1;
+	background-color: #fff3c7;
+	border: 1px solid #ddd;
+	padding: 10px;
+	overflow-y: auto;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+/* Chat bubble styling */
+.chat-bubble {
+	max-width: 75%;
+	padding: 10px;
+	border-radius: 15px;
+	margin-bottom: 5px;
+	line-height: 1.4;
+	word-wrap: break-word;
+}
+
+.user-message {
+	align-self: flex-end;
+	background-color: #d0e8ff;
+	color: #004085;
+	border-radius: 15px 15px 0 15px;
+}
+
+.ai-message {
+	align-self: flex-start;
+	background-color: #d4edda;
+	color: #155724;
+	border-radius: 15px 15px 15px 0;
+}
+
+.chat-input {
+	display: flex;
+	gap: 5px;
+}
+
+.chat-input input {
+	flex: 1;
+	padding: 8px;
+	font-size: 16px;
+}
+
+.chat-input button {
+	padding: 8px 12px;
+	font-size: 16px;
+}
+
+/* Block snippet container within AI response */
+.block-snippet {
+	margin-top: 10px;
+	font-size: 14px;
+	color: #155724;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+/* Temporary Blockly div styling */
+.temp-blockly-div {
+	width: 200px;
+	height: 150px;
+	border: 1px solid #ddd;
+	background-color: #f9f9f9;
+	margin-top: 5px;
+}
+
+/* Add to Canvas button styling */
+.add-button {
+	padding: 5px 10px;
+	font-size: 14px;
+	color: #ffffff;
+	background-color: #007bff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 5px;
+}
+
+.add-button:hover {
+	background-color: #0056b3;
+}

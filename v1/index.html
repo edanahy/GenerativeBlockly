@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Generative Blockly Interface</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<h1>Generative Blockly Interface</h1>
+		</header>
+		<div class="main">
+			<div class="blockly-container">
+				<div id="blocklyDiv" class="blockly-div"></div>
+			</div>
+			<div class="chat-container">
+				<div class="chat-display" id="chatDisplay"></div>
+				<div class="chat-input">
+					<input type="text" id="chatInput" placeholder="Enter chat">
+					<button onclick="sendMessage()">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://unpkg.com/blockly/blockly.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
